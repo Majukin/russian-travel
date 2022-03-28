@@ -1,0 +1,27 @@
+.place__paragraphs{
+  margin-top: 48px;
+  max-width: 484px;
+  min-width: 288px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__paragraphs {
+        max-width: 456px;
+    }
+} 
+
+@media screen and (max-width: 768px) {
+    .place__paragraphs {
+        font-size: 16px;
+        max-width: 352px;
+    }
+} 
+
+@media screen and (max-width: 320px) {
+    .place__paragraphs {
+        font-size: 16px;
+        max-width: 288px;
+        margin: 0 auto;
+    }
+} 
