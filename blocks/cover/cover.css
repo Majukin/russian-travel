@@ -1,7 +1,14 @@
 .cover{
+  border: 1px solid red;
   margin: 0 auto;
   margin-top: 92px;
   position: relative;
   cursor: pointer;
   max-width: 1184px;
 }
+
+@media screen and (max-width: 320px) {
+    .cover {
+      margin-top: 66px;
+    }
+} 

@@ -1,13 +1,38 @@
 .place__item{
+  border: 1px solid red;
   margin: 0;
   padding: 0;
   margin-top: 80px;
   list-style: none;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2);
+  gap: 46px 40px;
 }
 
 .place__item:first-child{
   margin-top: 0;
 }
+
+@media screen and (max-width: 1024px) {
+    .place__item {
+      gap: 46px 32px;
+    }
+} 
+
+@media screen and (max-width: 768px) {
+    .place__item {
+      margin-top: 73px;
+      gap: 46px 28px;
+    }
+} 
+
+@media screen and (max-width: 425px) {
+    .place__item {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex-wrap: nowrap;
+      padding: 0;
+    }
+} 
