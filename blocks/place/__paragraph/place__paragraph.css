@@ -4,8 +4,13 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 163%;
+  line-height: 26px;
+  width: 100%;
   color: #FFFFFF;
+}
+
+.place__paragraph:last-child{
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 768px) {

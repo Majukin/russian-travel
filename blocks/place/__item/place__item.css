@@ -28,10 +28,9 @@
 
 @media screen and (max-width: 425px) {
     .place__item {
+      margin-top: 50px;
       display: flex;
       flex-direction: column;
-      justify-content: center;
-      flex-wrap: nowrap;
-      padding: 0;
+      gap: 32px;
     }
 } 
